@@ -11,12 +11,17 @@ export default function App() {
   const [financialManagement, setFinancialManagement] = useState("");
 
   function clickMe() {
-    alert("this is the click me button");
+    let totalGradeScore = (sswd * 5) + (ob * 5);
+
+    let GPA = totalGradeScore / 10;
+
+    alert("Your GPA is: " + GPA);
+  
   }
 
 
 
   
 
-  );
+
 }
