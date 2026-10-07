@@ -19,9 +19,33 @@ export default function App() {
   
   }
 
-
-
-  
-
-
 }
+
+return (
+  <View>
+
+    <View>
+      <Text>SSWD:</Text>
+      <TextInput
+        value={sswd}
+        onChangeText={setSswd}
+        keyboardType="numeric"
+      />
+    </View>
+
+    <View>
+      <Text>OB:</Text>
+      <TextInput
+        value={ob}
+        onChangeText={setOb}
+        keyboardType="numeric"
+      />
+    </View>
+
+    <Button
+      title="Calculate GPA"
+      onPress={clickMe}
+    />
+
+  </View>
+);
