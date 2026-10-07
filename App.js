@@ -18,6 +18,20 @@ export default function App() {
     alert("Your GPA is: " + GPA);
   
   }
+  const styles = StyleSheet.create({
+  container: {
+
+  },
+  row: {
+
+  },
+  label: {
+
+  },
+  textInput: {
+
+  }
+});
 
 }
 
