@@ -10,6 +10,12 @@ export default function App() {
   const [ooad, setOoad] = useState("");
   const [financialManagement, setFinancialManagement] = useState("");
 
+  function clickMe() {
+    alert("this is the click me button");
+  }
+
+
+
   
 
   );
